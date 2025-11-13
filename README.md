@@ -5,26 +5,28 @@
 - Guilherme Vasques Tamai - RM563276  
 - Vitor Komura de Freitas - RM563694
 
-## ⚙️ Objetivo
-Simular um medidor de energia elétrica com ESP32 e LCD, aplicando conceitos de tensão, corrente, potência e energia acumulada para práticas sustentáveis no futuro do trabalho.
+## 🎯 Objetivo
+
+A proposta consiste em uma simulação de automação IoT voltada para o monitoramento de consumo energético, utilizando um ESP32 virtual e display LCD.
+
+A solução demonstra como tecnologias embarcadas podem ser aplicadas para tornar ambientes de trabalho mais eficientes e sustentáveis. Ao acompanhar em tempo real os dados de tensão, corrente e potência, é possível identificar padrões de consumo, propor ajustes e contribuir para práticas mais conscientes no uso da energia elétrica.
 
 ## 🧠 Conceitos aplicados
-- Leitura de sensores analógicos
-- Cálculo de potência instantânea e acumulada
-- Interface com display LCD
-- Sustentabilidade e eficiência energética
+
+- Leitura de sensores analógicos simulados  
+- Cálculo de potência instantânea e energia acumulada  
+- Exibição de dados em display LCD  
+- Sustentabilidade e eficiência energética  
+- Simulação de ambiente embarcado com ESP32
 
 ## 📊 Dados utilizados
-Os dados utilizados neste projeto são **simulados** por meio de sensores conectados ao ESP32. As leituras de tensão e corrente são geradas em ambiente de teste para representar o funcionamento de um medidor real. Não há uso de dados reais de concessionárias ou medições externas.
+
+Todos os dados utilizados foram **simulados** em ambiente virtual. As leituras de tensão e corrente foram geradas artificialmente para representar o funcionamento de um medidor real, sem uso de sensores físicos ou dados externos.
 
 ## 🚀 Como executar
 
-1. Instale o [PlatformIO](https://platformio.org/) no VS Code
-2. Conecte o ESP32 via USB
-3. Compile e envie o código com o botão "Upload"
-4. Verifique os dados no LCD conectado
-
-## 🧪 Simulação alternativa
-Caso não tenha o hardware disponível, é possível simular o funcionamento usando o ambiente virtual [Wokwi](https://wokwi.com/). Basta importar o arquivo `main.cpp` e configurar os componentes conforme o circuito proposto.
-
-## 📁 Estrutura do projeto
+1. Acesse o simulador [Wokwi](https://wokwi.com/)
+2. Crie um novo projeto com ESP32
+3. Copie o conteúdo do arquivo `main.cpp` para o editor
+4. Adicione os componentes: LCD, resistores e sensores simulados
+5. Execute a simulação e observe os dados no display
